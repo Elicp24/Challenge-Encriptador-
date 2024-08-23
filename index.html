@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()">
+    <link rel="stylesheet" href="/stely.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Encriptador Challenge</title>
+
+</head>
+ <body>
+     <header>
+        <img class="logo" src="/Logo.png" alt="logo de Alura">
+      </header>
+     <main>
+        <section class="text-area">
+            <div class="contenedorcajatexto">
+              <textarea class="text-area-input" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+            <div class="informacion"> 
+                <img src="/alerta.svg" alt="alerta">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </section>
+
+           <div class="muneco">
+                <img src="/Muñeco.png" alt="Muñeco">
+            </div>
+
+        <section class="text-encriptado">
+           
+            <div class="contenedor-Parrafo">
+               <h3>Ningún mensaje fue <br> encontrado</h3>
+               <p>Ingresa el texto que desees encriptar o <br> desencriptar.</p>
+            </div>
+            <div class="boton-Copiar">
+               <button class="btn-copiar" onclick="btncopiar()">Copiar</button>
+            </div>
+            <div class="contenedor-resultado">
+                <p class="texto-resultado"></p>
+            </div>
+        
+        </section>
+     </main>
+    
+       <footer class="copyrigth 2024">
+        <p class="copyright">© Copyright 2024 - Desarrollado por Eli Campos para Alura Latam</p>
+        <a href="https://www.linkedin.com/in/derlincuente/eli-campos-407795318/" target="_blank" rel="noopener noreferrer">
+            <img src="./icons-linkedin.png" alt="Logo LinkedIn" class="linked">
+            </a>
+        <a href="https://github.com/Elicp24/Elicp24" target="_blank" rel="noopener noreferrer">
+            <img src="./imagenes-Github.png" alt="Logo Githug" class="git">
+            </a>    
+            <script src="script.js"></script>
+    </footer>
+ </body>
+ </html>
